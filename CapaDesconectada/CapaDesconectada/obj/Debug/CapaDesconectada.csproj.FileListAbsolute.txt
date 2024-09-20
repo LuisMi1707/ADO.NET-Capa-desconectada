@@ -1,0 +1,10 @@
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\bin\Debug\CapaDesconectada.exe.config
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\bin\Debug\CapaDesconectada.exe
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\bin\Debug\CapaDesconectada.pdb
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.Form1.resources
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.Properties.Resources.resources
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.exe
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.pdb
