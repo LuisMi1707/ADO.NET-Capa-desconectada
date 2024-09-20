@@ -8,3 +8,6 @@ C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\C
 C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.CoreCompileInputs.cache
 C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.exe
 C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.pdb
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\bin\Debug\AccesoDatos.dll
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\bin\Debug\AccesoDatos.pdb
+C:\Users\HP\OneDrive\GUIAS_PROGRA_2\ADO.NET-Capa-desconectada\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.CopyComplete

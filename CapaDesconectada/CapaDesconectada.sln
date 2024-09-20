@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDesconectada", "CapaDesconectada\CapaDesconectada.csproj", "{289F62C4-1762-41A4-A26B-8F77C36B606F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{4936EC08-117C-4007-8FB6-E8D31EAFA7F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{289F62C4-1762-41A4-A26B-8F77C36B606F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{289F62C4-1762-41A4-A26B-8F77C36B606F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{289F62C4-1762-41A4-A26B-8F77C36B606F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4936EC08-117C-4007-8FB6-E8D31EAFA7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4936EC08-117C-4007-8FB6-E8D31EAFA7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4936EC08-117C-4007-8FB6-E8D31EAFA7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4936EC08-117C-4007-8FB6-E8D31EAFA7F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
