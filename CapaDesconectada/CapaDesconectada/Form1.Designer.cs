@@ -34,6 +34,9 @@
             this.gridTipado = new System.Windows.Forms.DataGridView();
             this.btnObtenerNoTipado = new System.Windows.Forms.Button();
             this.btnObtenerTipado = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbBusquedaNt = new System.Windows.Forms.TextBox();
+            this.btnBuscarNt = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridNoTipado)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -45,7 +48,7 @@
             this.groupBox1.Controls.Add(this.gridNoTipado);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(337, 295);
+            this.groupBox1.Size = new System.Drawing.Size(337, 277);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DataSet No Tipado";
@@ -53,7 +56,7 @@
             // gridNoTipado
             // 
             this.gridNoTipado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridNoTipado.Location = new System.Drawing.Point(0, 78);
+            this.gridNoTipado.Location = new System.Drawing.Point(0, 60);
             this.gridNoTipado.Name = "gridNoTipado";
             this.gridNoTipado.Size = new System.Drawing.Size(337, 217);
             this.gridNoTipado.TabIndex = 0;
@@ -78,7 +81,7 @@
             // 
             // btnObtenerNoTipado
             // 
-            this.btnObtenerNoTipado.Location = new System.Drawing.Point(74, 352);
+            this.btnObtenerNoTipado.Location = new System.Drawing.Point(81, 305);
             this.btnObtenerNoTipado.Name = "btnObtenerNoTipado";
             this.btnObtenerNoTipado.Size = new System.Drawing.Size(209, 23);
             this.btnObtenerNoTipado.TabIndex = 2;
@@ -96,11 +99,40 @@
             this.btnObtenerTipado.UseVisualStyleBackColor = true;
             this.btnObtenerTipado.Click += new System.EventHandler(this.btnObtenerTipado_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(63, 376);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(75, 13);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Buscar Cliente";
+            // 
+            // tbBusquedaNt
+            // 
+            this.tbBusquedaNt.Location = new System.Drawing.Point(144, 373);
+            this.tbBusquedaNt.Name = "tbBusquedaNt";
+            this.tbBusquedaNt.Size = new System.Drawing.Size(100, 20);
+            this.tbBusquedaNt.TabIndex = 5;
+            // 
+            // btnBuscarNt
+            // 
+            this.btnBuscarNt.Location = new System.Drawing.Point(118, 399);
+            this.btnBuscarNt.Name = "btnBuscarNt";
+            this.btnBuscarNt.Size = new System.Drawing.Size(142, 23);
+            this.btnBuscarNt.TabIndex = 6;
+            this.btnBuscarNt.Text = "Buscar Cliente";
+            this.btnBuscarNt.UseVisualStyleBackColor = true;
+            this.btnBuscarNt.Click += new System.EventHandler(this.btnBuscarNt_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBuscarNt);
+            this.Controls.Add(this.tbBusquedaNt);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnObtenerTipado);
             this.Controls.Add(this.btnObtenerNoTipado);
             this.Controls.Add(this.groupBox2);
@@ -113,6 +145,7 @@
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridTipado)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -124,6 +157,9 @@
         private System.Windows.Forms.DataGridView gridTipado;
         private System.Windows.Forms.Button btnObtenerNoTipado;
         private System.Windows.Forms.Button btnObtenerTipado;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbBusquedaNt;
+        private System.Windows.Forms.Button btnBuscarNt;
     }
 }
 
