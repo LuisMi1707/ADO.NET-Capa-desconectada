@@ -32,7 +32,19 @@ namespace CapaDesconectada
             var customers = adaptador.GetData();
             gridTipado.DataSource = customers;
         }
+        private void btnBuscarTIpado_Click(object sender, EventArgs e)
+        {
+            var customer = adaptador.GetDataByCustomerID(tboxBuscarTipado.Text);
+            if (customer != null)
+            {
+                var objeto1 = customerRepository.ExtraerInfoCliente(customer);
+                Console.WriteLine(customer);
+            }
+
+        }
         #endregion
+
+    
 
         public Form1()
         {
@@ -48,6 +60,13 @@ namespace CapaDesconectada
         {
 
         }
+
+        private void gridTipado_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+       
     }
 }
 
