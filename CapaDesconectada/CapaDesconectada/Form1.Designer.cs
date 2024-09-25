@@ -51,6 +51,8 @@
             this.tboxContactTitle = new System.Windows.Forms.TextBox();
             this.tboxAddres = new System.Windows.Forms.TextBox();
             this.btnInsertarCliente = new System.Windows.Forms.Button();
+            this.btnInsertarT = new System.Windows.Forms.Button();
+            this.btnActualizarNT = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridNoTipado)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -117,7 +119,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 325);
+            this.label1.Location = new System.Drawing.Point(9, 320);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 13);
             this.label1.TabIndex = 4;
@@ -125,16 +127,16 @@
             // 
             // tbBusquedaNt
             // 
-            this.tbBusquedaNt.Location = new System.Drawing.Point(149, 322);
+            this.tbBusquedaNt.Location = new System.Drawing.Point(90, 317);
             this.tbBusquedaNt.Name = "tbBusquedaNt";
             this.tbBusquedaNt.Size = new System.Drawing.Size(100, 20);
             this.tbBusquedaNt.TabIndex = 5;
             // 
             // btnBuscarNt
             // 
-            this.btnBuscarNt.Location = new System.Drawing.Point(77, 360);
+            this.btnBuscarNt.Location = new System.Drawing.Point(12, 343);
             this.btnBuscarNt.Name = "btnBuscarNt";
-            this.btnBuscarNt.Size = new System.Drawing.Size(172, 50);
+            this.btnBuscarNt.Size = new System.Drawing.Size(112, 36);
             this.btnBuscarNt.TabIndex = 6;
             this.btnBuscarNt.Text = "Buscar Cliente";
             this.btnBuscarNt.UseVisualStyleBackColor = true;
@@ -151,9 +153,9 @@
             // 
             // btnBuscarTIpado
             // 
-            this.btnBuscarTIpado.Location = new System.Drawing.Point(537, 360);
+            this.btnBuscarTIpado.Location = new System.Drawing.Point(460, 360);
             this.btnBuscarTIpado.Name = "btnBuscarTIpado";
-            this.btnBuscarTIpado.Size = new System.Drawing.Size(172, 50);
+            this.btnBuscarTIpado.Size = new System.Drawing.Size(123, 36);
             this.btnBuscarTIpado.TabIndex = 9;
             this.btnBuscarTIpado.Text = "Enviar";
             this.btnBuscarTIpado.UseVisualStyleBackColor = true;
@@ -217,6 +219,7 @@
             this.tboxCustomerID.Name = "tboxCustomerID";
             this.tboxCustomerID.Size = new System.Drawing.Size(100, 20);
             this.tboxCustomerID.TabIndex = 15;
+            this.tboxCustomerID.TextChanged += new System.EventHandler(this.tboxCustomerID_TextChanged);
             // 
             // tboxCompaniName
             // 
@@ -248,19 +251,41 @@
             // 
             // btnInsertarCliente
             // 
-            this.btnInsertarCliente.Location = new System.Drawing.Point(814, 220);
+            this.btnInsertarCliente.Location = new System.Drawing.Point(228, 317);
             this.btnInsertarCliente.Name = "btnInsertarCliente";
-            this.btnInsertarCliente.Size = new System.Drawing.Size(196, 23);
+            this.btnInsertarCliente.Size = new System.Drawing.Size(112, 36);
             this.btnInsertarCliente.TabIndex = 20;
-            this.btnInsertarCliente.Text = "Insertar Cliente";
+            this.btnInsertarCliente.Text = "Insertar Cliente NT";
             this.btnInsertarCliente.UseVisualStyleBackColor = true;
             this.btnInsertarCliente.Click += new System.EventHandler(this.btnInsertarCliente_Click);
+            // 
+            // btnInsertarT
+            // 
+            this.btnInsertarT.Location = new System.Drawing.Point(625, 360);
+            this.btnInsertarT.Name = "btnInsertarT";
+            this.btnInsertarT.Size = new System.Drawing.Size(123, 36);
+            this.btnInsertarT.TabIndex = 21;
+            this.btnInsertarT.Text = "Insertar Cliente T";
+            this.btnInsertarT.UseVisualStyleBackColor = true;
+            this.btnInsertarT.Click += new System.EventHandler(this.btnInsertarT_Click);
+            // 
+            // btnActualizarNT
+            // 
+            this.btnActualizarNT.Location = new System.Drawing.Point(228, 370);
+            this.btnActualizarNT.Name = "btnActualizarNT";
+            this.btnActualizarNT.Size = new System.Drawing.Size(112, 36);
+            this.btnActualizarNT.TabIndex = 22;
+            this.btnActualizarNT.Text = "Actualizar";
+            this.btnActualizarNT.UseVisualStyleBackColor = true;
+            this.btnActualizarNT.Click += new System.EventHandler(this.btnActualizarNT_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1032, 450);
+            this.Controls.Add(this.btnActualizarNT);
+            this.Controls.Add(this.btnInsertarT);
             this.Controls.Add(this.btnInsertarCliente);
             this.Controls.Add(this.tboxAddres);
             this.Controls.Add(this.tboxContactTitle);
@@ -319,6 +344,8 @@
         private System.Windows.Forms.TextBox tboxContactTitle;
         private System.Windows.Forms.TextBox tboxAddres;
         private System.Windows.Forms.Button btnInsertarCliente;
+        private System.Windows.Forms.Button btnInsertarT;
+        private System.Windows.Forms.Button btnActualizarNT;
     }
 }
 

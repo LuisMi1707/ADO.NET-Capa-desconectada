@@ -15,6 +15,22 @@ namespace CapaDesconectada
 {
     public partial class Form1 : Form
     {
+        private void RellenarForm(Customer cliente)
+        {
+            if (cliente != null)
+            {
+                tboxCustomerID.Text = cliente.CustomerID;
+                tboxCompaniName.Text = cliente.CompanyName;
+                tboxContactName.Text = cliente.ContactName;
+                tboxContactTitle.Text = cliente.ContactTitle;
+                tboxAddres.Text = cliente.Address;
+            }
+            if (cliente == null)
+            {
+                MessageBox.Show("objeto null ");
+            }
+        }
+
         #region No Tipado
         private CustomerRepository customerRepository = new CustomerRepository();
 
@@ -26,10 +42,13 @@ namespace CapaDesconectada
         private void btnBuscarNt_Click(object sender, EventArgs e)
         {
             var cliente = customerRepository.ObetenerPorId(tbBusquedaNt.Text);
-            if (cliente == null) {
+            RellenarForm(cliente);
+            if (cliente == null)
+            {
                 MessageBox.Show("El objeto es null");
             }
-            if (cliente != null) {
+            if (cliente != null)
+            {
                 var listaClientes = new List<Customer> { cliente };
                 gridNoTipado.DataSource = listaClientes;
             }
@@ -76,10 +95,30 @@ namespace CapaDesconectada
                 Console.WriteLine(customer);
             }
 
+            
+
+        }
+
+        private void btnInsertarT_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            adaptador.Insert(
+                cliente.CustomerID, 
+                cliente.CompanyName, 
+                cliente.ContactName, 
+                cliente.ContactTitle, 
+                cliente.Address, 
+                cliente.City, 
+                cliente.Region, 
+                cliente.PostalCode, 
+                cliente.Country, 
+                cliente.Phone,
+                cliente.Fax
+                );
         }
         #endregion
 
-    
+
 
         public Form1()
         {
@@ -98,7 +137,17 @@ namespace CapaDesconectada
 
         }
 
-  
+        private void tboxCustomerID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnActualizarNT_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            var actulaizadas = customerRepository.ActualizarCliente(cliente);
+            MessageBox.Show($"{actulaizadas} filas actulizadas");
+        }
     }
 }
 
